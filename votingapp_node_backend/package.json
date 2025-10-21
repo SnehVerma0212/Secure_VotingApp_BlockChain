@@ -1,0 +1,25 @@
+{
+  "name": "votingapp_node_backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Node backend for Voting app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Paras Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ethers": "^6.15.0",
+    "express": "^5.1.0",
+    "gitignore": "^0.7.0",
+    "mongoose": "^8.19.1",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
