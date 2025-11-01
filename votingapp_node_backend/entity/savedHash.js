@@ -21,3 +21,4 @@ const mongo = new mongoose.Schema({
 
 const dataUser = mongoose.model("savedHash", mongo);
 export default dataUser;
+
